@@ -1,0 +1,27 @@
+.Section {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Section .Section__img {
+  width: 550px;
+  height: 350px;
+  background-color: #777777;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6b/Korea-Gongju-Gongsanseong-01.jpg");
+}
+
+.img2 {
+  background-image: url("https://dimg.donga.com/wps/SPORTS/IMAGE/2015/09/25/73862807.1.jpg");
+}
