@@ -1,0 +1,47 @@
+.tabArea {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabArea .tabArea__tabs {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabArea .tabArea__tabs div {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 50px;
+  background-color: rgb(235, 199, 255);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.tabArea .tabArea__tabs div.active {
+  background-color: rgb(191, 81, 255);
+  box-shadow: 3px 5px 10px #ccc;
+}
+
+.tabArea .tabArea__tabs div:hover {
+  box-shadow: 3px 5px 10px #ccc;
+}
+
+.tabArea .tabArea__content {
+  width: 100%;
+  margin-top: 50px;
+}

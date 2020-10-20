@@ -1,0 +1,45 @@
+.Header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+}
+
+.Header ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: #fff;
+}
+.Contents {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5;
+}
+.menuActive {
+  border-bottom: 2px solid #fff;
+  font-weight: 900;
+  color: blueviolet;
+}
